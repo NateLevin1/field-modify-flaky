@@ -5,7 +5,7 @@ public class NumbersModifier {
         Numbers.num = Numbers.num + b;
         return Numbers.num;
     }
-    public int reset() {
+    public void reset() {
         Numbers.num = 0;
     }
 }
